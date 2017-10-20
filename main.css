@@ -6,8 +6,8 @@ html, body {
 body {
     margin: 0px;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #363F05;
-    color: #FCFEDB; /* color of elissa huang*/
+    background-color: #e8effc;
+    color: #454d5b; /* color of elissa huang*/
     overflow-x: hidden; /* Disable horizontal scroll */
     overflow-y: hidden;
 
@@ -18,13 +18,15 @@ body {
     display: flex;
     top: 0;
     left: 0;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+}
+.projectIntro{
+    display:flex;
 }
 h1{
-    font-size: 56pt;
-    text-shadow: 2px 3px 4px #572404;/* #825B21 */
+    font-size: 40pt;
     white-space: nowrap;
     -webkit-animation: fadein 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s ease-in; /* Firefox < 16 */
