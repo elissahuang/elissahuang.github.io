@@ -1,7 +1,6 @@
 html{
     height: 100%;
 }
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 body {
 
     height: 100%;   
@@ -9,11 +8,11 @@ body {
     display: flex;  /*enables flex content for its children*/
     box-sizing: border-box;
     margin: 0px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #e8effc;
     color: #454d5b; /* color of elissa huang*/
 }
-#header{
+.header{
     width: 100%;
     height: 100%;
     display: flex;
@@ -23,10 +22,8 @@ body {
     justify-content: center;
     flex-direction: row;
 }
-#projectIntro{
-    display:flex;
-}
 h1{
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 40pt;
     white-space: nowrap;
     -webkit-animation: fadein 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
@@ -37,31 +34,45 @@ h1{
     margin-bottom: 30px
 }
 
-.column {
-    height: 100%;  /*allows both columns to span the full height of the browser window*/
-    display: flex;
-    flex-direction: column;  /*places the left and right headers above the bottom content*/
+/*adopted from https://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load*/
+
+#fadeIn p {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
 }
 
-#left {
-    flex-shrink: 0;  /*makes sure that content is not cut off in a smaller browser window*/
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
-.top-left {
-    flex-shink: 0;
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
-.top-right {
-    flex-shrink: 0;
-    display: inline-flex;
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
-ul {
-    display: inline-flex;
-    list-style: none;
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
-.bottom {
-    flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
-    overflow-y: auto;  /*adds scroll to this container*/
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }

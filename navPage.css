@@ -1,7 +1,7 @@
 html{
     height: 100%;
 }
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
 body {
 
     height: 100%;   
@@ -9,7 +9,8 @@ body {
     display: flex;  /*enables flex content for its children*/
     box-sizing: border-box;
     margin: 0px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #e8effc;
     color: #454d5b; /* color of elissa huang*/
 }
