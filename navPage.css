@@ -37,32 +37,32 @@ html{
 
 #home:hover {
     content: url("https://png.icons8.com/exterior/dusk/64");
-    height: 20px;
-    width:  20px;
+    height: 28px;
+    width:  28px;
 }
 
 #aboutMe:hover {
     content: url("https://png.icons8.com/female-user/dusk/64");
-    height: 20px;
-    width:  20px;
+    height: 28px;
+    width:  28px;
 }
 
 #skills:hover {
     content: url("https://png.icons8.com/dossier/dusk/64");
-    height: 20px;
-    width:  20px;
+    height: 28px;
+    width:  28px;
 }
 
 #projects:hover {
     content: url("https://png.icons8.com/code/dusk/64");
-    height: 20px;
-    width:  20px;
+    height: 28px;
+    width:  28px;
 }
 
 #contactMe:hover {
     content: url("phoneshake.gif");
-    height: 20px;
-    width: 20px;
+    height: 28px;
+    width: 28px;
 }
 
 .c--anim-btn span {
