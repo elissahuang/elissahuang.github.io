@@ -7,16 +7,13 @@ div a {
     color: white;
     font-size: 14px;
     padding: 15px;
-    display:inline-block;
+    display: inline-block;
 }
-ul {
+/*ul {
   display: inline;
   margin: 0;
   padding: 0;
 }
-/*ul li {
-    display: inline-block;
-}*/
 ul li:hover ul {
     display: block;
 }
@@ -29,12 +26,9 @@ ul li ul li {
   background: #e8effc; 
   display: block; 
 }
-/*ul li ul li a {
-    display:block !important;
-} */
 ul li ul li:hover {
     background: #e8effc;
-}
+}*/
 
 #nav {
 
@@ -53,18 +47,18 @@ ul li ul li:hover {
 
 }
 
-#bottom-drawer-menu {
+#top-drawer-menu {
     width: 40%;
     height: 75%;
     list-style-type: none;
-    position: absolute; top: 0;
+    position: absolute; top: 1%;
     padding: 0px;
 
     display: flex;
     flex-direction: row;
 }
 
-#bottom-drawer-menu li{
+#top-drawer-menu li{
     text-align: center;
     flex-grow: 1;
 }
