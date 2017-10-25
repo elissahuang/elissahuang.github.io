@@ -41,28 +41,40 @@ html{
     font-size: 8pt;
 }
 
-#aboutMe:hover {
-    content: url("https://png.icons8.com/female-user/dusk/64");
-    height: 28px;
-    width:  28px;
+#aboutMeIcon:hover p.navText{
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    color: #454d5b;
+    font-size: 8pt;
 }
 
-#skills:hover {
-    content: url("https://png.icons8.com/dossier/dusk/64");
-    height: 28px;
-    width:  28px;
+#skillsIcon:hover p.navText{
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    color: #454d5b;
+    font-size: 8pt;
 }
 
-#projects:hover {
-    content: url("https://png.icons8.com/code/dusk/64");
-    height: 28px;
-    width:  28px;
+#projectsIcon:hover p.navText{
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    color: #454d5b;
+    font-size: 8pt;
 }
 
-#contactMe:hover {
-    content: url("phoneshake.gif");
-    height: 28px;
-    width: 28px;
+#contactMeIcon:hover p.navText{
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    color: #454d5b;
+    font-size: 8pt;
 }
 
 .navText {
