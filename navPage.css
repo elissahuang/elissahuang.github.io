@@ -9,39 +9,23 @@ html{
     display: flex;
     box-sizing: border-box;
     margin: 0px;
+    padding: 10px;
     font-family: 'Open Sans', sans-serif;
     background-color: #e8effc;
     color: #454d5b;
-    /*align-items: center;
-    justify-content: center;*/
+    justify-content: center;
     flex-direction: row;
 }
 
 #top-drawer-menu {
-    width:  20%;
-    height: 5%;
+    width:  15%;
     list-style-type: none;
-    position: absolute; top: 0.0%;
-    padding: 0px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
 }
 
-#top-drawer-menu li{
-    text-align: center;
-    flex-grow: 1;
-}
-
 #homeIcon:hover p.navText{
-    display: block;
-    position: relative;
-    width: 10px;
-    height: 10px;
-    color: #454d5b;
-    font-size: 8pt;
-}
-
-#aboutMeIcon:hover p.navText{
     display: block;
     position: relative;
     width: 10px;
