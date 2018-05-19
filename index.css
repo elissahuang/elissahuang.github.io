@@ -47,6 +47,21 @@ h2 {
     animation:         fadein 1s ease-in;
     margin-bottom: 30px
 }
+h3 {
+    font-family: 'Josefin Slab', serif;
+    /*font-size: 20pt;*/
+    font-weight: 300;
+    margin-left: 5vw;
+    font-size: 1em;
+    /* width: 40%; */
+    margin-bottom: .5vw;
+    -webkit-animation: fadein 1s ease-in; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation:    fadein 1s ease-in; /* Firefox < 16 */
+    -ms-animation:     fadein 1s ease-in; /* Internet Explorer */
+    -o-animation:      fadein 1s ease-in; /* Opera < 12.1 */
+    animation:         fadein 1s ease-in;
+    /*margin-bottom: 30px*/
+}
 
 .fadeIn1 {
     -webkit-animation: fadein 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
