@@ -1,5 +1,6 @@
-html{
+html {
     height: 100%;
+    background-color: #fcfcfc;
 }
 body {
 
@@ -8,10 +9,9 @@ body {
     display: flex;
     box-sizing: border-box;
     margin: 0px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16pt;
-    background-color: #e8effc;
+    font-family: 'Open Sans', sans-serif;    
     color: #454d5b; /* color of elissa huang*/
+    font-size: 24pt;
 }
 #header {
     width: 100%;
@@ -42,6 +42,42 @@ h1{
     -ms-animation:     fadein 2s ease-in; /* Internet Explorer */
     -o-animation:      fadein 2s ease-in; /* Opera < 12.1 */
     animation:         fadein 2s ease-in;
+}
+
+#nav {
+    width: 16vmax;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+#nav a {
+    height: 24px;
+    width: 24px;
+    display: block;
+}
+
+#homeIcon {
+    transition: margin-left 0.9s;
+}
+
+#skillsIcon {
+    transition: margin-left 0.9s;
+    background: ;
+}
+
+#skillsIcon {
+    transition: margin-left 0.9s;
+}
+
+#projectsIcon {
+    transition: margin-left 0.9s;
+}
+
+#contactMeIcon {
+    transition: margin-left 0.9s;
 }
 
 /*FADE IN*/

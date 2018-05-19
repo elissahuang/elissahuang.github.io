@@ -1,8 +1,14 @@
-html{
+html, body{
     height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
-#nav {   
+
+
+
+/*#nav {   
     width: 20%;
     height: 70%;
     overflow: hidden;
@@ -11,11 +17,9 @@ html{
     margin: 0px;
     padding: 10px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #e8effc;
-    color: #454d5b;
     justify-content: center;
     flex-direction: row;
-}
+}*/
 
 #top-drawer-menu {
     width:  15%;
