@@ -26,6 +26,7 @@ body {
 h1{
     font-family: 'Fredericka the Great', cursive;
     font-size: 28pt;
+    text-align: center;
     white-space: nowrap;
     -webkit-animation: fadein 0.5s ease-in; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation:    fadein 0.5s ease-in; /* Firefox < 16 */
